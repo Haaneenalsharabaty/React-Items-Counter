@@ -1,0 +1,26 @@
+img {
+  width: 50%;
+  border-radius: 2em;
+}
+body {
+  background-color: rgb(177, 216, 110);
+  padding: 2em;
+}
+.card1 {
+  width: 33%;
+}
+.continer {
+  display: flex;
+}
+h1 {
+  color: green;
+}
+.card {
+  border: solid 1px green;
+  border-radius: 2em;
+  padding: 1em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  width: 25em;
+}
