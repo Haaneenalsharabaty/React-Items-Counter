@@ -8,13 +8,14 @@ export default class CardItems extends Component{
             counter:0,
         };
     }
-    plus = () => {
-        this.setState((prevState) => ({ counter: prevState.counter + 1 }));
-
+    plus = (props) => {
+        this.setState ({ counter:this.state.counter + 1 });
+        this.props.plusItem();
     };
     mins = () => {
         if (this.state.counter > 0) {
             this.setState({ counter: this.state.counter - 1 });
+            this.props.minusItem();
         }
     };
     else = [];

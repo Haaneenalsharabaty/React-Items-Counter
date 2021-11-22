@@ -46,7 +46,7 @@ class Card extends Component {
                     minusItem={this.caseTwo}
                 />
 
-
+<h1> the result {this.state.CountItem} </h1>
 
             </div>
         );
